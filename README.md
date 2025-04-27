@@ -1,6 +1,6 @@
 # Cortex Link A8R-M ESP32 Smart Relay Board
 
-<img src="3D_A8R-M PCB Layout_1.jpg" alt="Cortex Link A8R-M ESP32 Smart Relay Board" width="600"/>
+<img src="images/3D_A8R-M PCB Layout_1.jpg" alt="Cortex Link A8R-M ESP32 Smart Relay Board" width="600"/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
