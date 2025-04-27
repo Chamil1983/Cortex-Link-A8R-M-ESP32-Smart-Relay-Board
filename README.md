@@ -262,5 +262,5 @@ For technical support:
 <p align="center">
   <img src="LOGO/MESA_logo.png" alt="MESA Logo" width="200"/><br>
 
-  <i>Designed and manufactured by Microcode Embedded Systems and Automation (MESA)</i>
+  <I align="center">Designed and manufactured by Microcode Embedded Systems and Automation (MESA)</i>
 </p>
