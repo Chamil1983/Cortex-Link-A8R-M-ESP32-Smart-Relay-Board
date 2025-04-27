@@ -1,15 +1,17 @@
 # Cortex Link A8R-M ESP32 Smart Relay Board
 
+<p align="center">
 <img src="3D_A8R-M PCB Layout_1.png" alt="Cortex Link A8R-M ESP32 Smart Relay Board" width="600"/>
-
+</p>
 ## Overview
 
 The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development platform designed for seamless integration into smart home automation systems, industrial control applications, and IoT projects.
 
 ## Board Layout
 
+<p align="center">
 <img src="3D_A8R-M PCB Layout_Top.png" alt="Board Layout" width="600"/>
-
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
@@ -61,7 +63,9 @@ The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development pla
 
 ## Board Layout
 
+<p align="center">
 <img src="images/board_labeled.jpg" alt="Board Layout" width="600"/>
+</p>
 
 ## Getting Started
 
@@ -181,17 +185,23 @@ switch:
 
 ### ESP32 PIN Configuration
 
+<p align="center">
 <img src="ESP32 Confuguration_Page1.jpg" alt="ESP32 PIN Configuration" width="600"/>
-
+</p>
 
 
 ### MCP23017 PIN Configuration (Input/Output)
 
+<p align="center">
 <img src="ESP32 Confuguration_Page2.jpg" alt="ESP32 PIN Configuration" width="600"/>
 <img src="ESP32 Confuguration_Page3.jpg" alt="ESP32 PIN Configuration" width="600"/>
+</p>
 
 ### GP8413 PIN Configuration (Analog OUTPUT Interface)
+
+<p align="center">
 <img src="ESP32 Confuguration_Page4.jpg" alt="ESP32 PIN Configuration" width="600"/>
+</p>
 
 ## Applications
 
