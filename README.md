@@ -229,7 +229,7 @@ switch:
 ## Documentation
 
 For complete documentation:
-- [User Manual](https://github.com/mesa-automation/cortex-link-a8r-m/wiki/Technical_Manual.pdf)
+- [User Manual](Technical_Manual.pdf)
 - [API Reference](https://github.com/mesa-automation/cortex-link-a8r-m/wiki/API-Reference)
 - [Example Projects](https://github.com/mesa-automation/cortex-link-a8r-m/wiki/Example-Projects)
 - [Troubleshooting Guide](https://github.com/mesa-automation/cortex-link-a8r-m/wiki/Troubleshooting)
