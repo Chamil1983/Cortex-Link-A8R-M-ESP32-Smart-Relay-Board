@@ -13,10 +13,12 @@ The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development pla
 <img src="3D_A8R-M PCB Layout_Top.png" alt="Board Layout" width="600"/>
 </p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Arduino Compatible](https://img.shields.io/badge/Arduino-Compatible-green.svg)](https://www.arduino.cc/)
 [![Platform: ESP32](https://img.shields.io/badge/Platform-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![ESPHome Compatible](https://img.shields.io/badge/ESPHome-Compatible-green.svg)](https://esphome.io/)
+[![Home Assistant Compatible](https://img.shields.io/badge/Home_Assistant-Compatible-green.svg)](https://www.home-assistant.io/)
 [![Release Version](https://img.shields.io/badge/Release-v1.0.0-green.svg)](https://github.com/mesa-automation/cortex-link-a8r-m/releases)
-[![Documentation](https://img.shields.io/badge/Docs-Available-brightgreen.svg)](https://github.com/mesa-automation/cortex-link-a8r-m/wiki)
 
 ## Overview
 
@@ -35,7 +37,7 @@ The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development pla
   - 6 relay outputs (12/24V DC or 250VAC, 10A)
   - 8 optically isolated digital inputs
   - 4 analog inputs (2× 4-20mA, 2× 0-5V DC)
-  - 2 analog outputs (0-10V)
+  - 2 analog outputs (0-10V / 0-5V Programmable)
 - **Expansion Capabilities**:
   - GSM module sockets
   - RF 433MHz/315MHz transceiver interface
@@ -68,6 +70,19 @@ The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development pla
 </p>
 
 ## Getting Started
+
+### Prerequisites
+
+- [Arduino IDE](https://www.arduino.cc/en/software) (1.8.x or higher)
+- [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32)
+- Required libraries:
+  - [Adafruit MCP23017 Library](https://github.com/adafruit/Adafruit-MCP23017-Arduino-Library)
+  - [ModbusMaster](https://github.com/4-20ma/ModbusMaster)
+  - [TinyGSM](https://github.com/vshymanskyy/TinyGSM) (for GSM functionality)
+  - [ESPHome](https://esphome.io/) (optional, for Home Assistant integration)
+  - [DFRobot_GP8XXX](https://github.com/DFRobot/DFRobot_GP8XXX.git)
+  - [Modbus Library for Arduino](https://github.com/emelianov/modbus-esp8266.git)
+  - [Ethernet Library for Arduino](https://github.com/arduino-libraries/Ethernet.git)
 
 ### Installation
 
