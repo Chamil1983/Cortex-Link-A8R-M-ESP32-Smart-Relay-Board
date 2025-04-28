@@ -66,7 +66,7 @@ The Cortex Link A8R-M ESP32 Smart Relay Board is a versatile IoT development pla
 ## Board Layout
 
 <p align="center">
-<img src="images/board_labeled.jpg" alt="Board Layout" width="600"/>
+<img src="Design_Drawing.d.jpg" alt="Board Layout" width="600"/>
 </p>
 
 ## Getting Started
