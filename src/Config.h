@@ -51,6 +51,14 @@
 #define PIN_ETH_MISO        19   // GPIO19 - ETHERNET W5500 MODULE SPI MISO
 #define PIN_ETH_MOSI        23   // GPIO23 - ETHERNET W5500 MODULE SPI MOSI
 
+// MCP23017 pins for Ethernet
+#define MCP_ETH_RESET_PORT  MCP23017Port::A  // MCP23017 port used for W5500 reset
+#define MCP_ETH_RESET_PIN   5                // GPA5 pin for W5500 reset
+
+// Ethernet settings
+#define ETH_RESET_DURATION  200    // Reset pulse duration in ms
+#define ETH_INIT_TIMEOUT    10000  // Timeout for Ethernet initialization in ms
+
 // ADC Parameters
 #define ADC_RESOLUTION      4095    // 12-bit ADC
 #define ADC_VOLTAGE_REF     3.3     // Reference voltage in Volts

@@ -15,6 +15,9 @@ public:
     bool inputChanged();
     void clearInterrupt();
 
+    // Provide access to MCP23017 for Ethernet reset
+    MCP23017& getMCP() { return mcp; }
+
 private:
     MCP23017 mcp;
     uint8_t lastInputState;

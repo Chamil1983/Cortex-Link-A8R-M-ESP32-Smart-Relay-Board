@@ -1,4 +1,5 @@
 #include "ModbusComm.h"
+#include <Arduino.h>
 
 ModbusComm::ModbusComm() : baudRate(9600), mbServerEnabled(false) {
     serialPort = &Serial2;
